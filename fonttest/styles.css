@@ -5,6 +5,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Roboto_Serif';
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+    src: url('fonts/RobotoSerif.woff2') format('woff2');
+}
+
 h1 {
     font-family: "freightround_probold", Arial, sans-serif;
 }
@@ -12,13 +20,15 @@ h1 {
 body {
     max-width: 600px;
     margin: auto;
-    font-family: 'kanit', Arial, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: montserrat, Arial, sans-serif;
+    font-weight: 390;
+    font-style: italic;
 }
 
 footer {
-    font-weight: 200;
+    font-family: 'Roboto_Serif', Arial;
+    font-size: 10px;
+    font-weight: 247;
     font-style: normal;
 }
 
